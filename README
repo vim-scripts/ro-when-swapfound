@@ -1,0 +1,18 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3572
+
+Open Vim in read-only mode when swapfile is found.
+
+INTRODUCTION
+Prevent to display attention dialog,
+and open Vim in read-only mode when swapfile is found.
+
+If you want to fix swapfile, and want to display attention dialog,
+you do this.
+
+    :ToggleSwapCheck
+    :e
+
+See also
+Open same file read-only in second Vim
+http://vim.wikia.com/wiki/Open_same_file_read-only_in_second_Vim
+
